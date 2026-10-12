@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#090d1b">
+<meta name="description" content="GameZone — a neon arcade for browser games."><title>GameZone — Play Beyond</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html" aria-label="GameZone home"><span class="brand-mark">GZ</span><span>Game<span class="accent">Zone</span><small>PLAY BEYOND</small></span></a><div class="top-actions"><span class="status-dot"></span> ARCADE READY</div></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">YOUR NEXT HIGH SCORE STARTS HERE</p><h1>Ready, player<br><span>one?</span></h1><p class="hero-desc">A growing collection of browser games. Pick a challenge, learn the controls, and beat your best.</p><a class="primary-btn" href="#games">Explore library <span>↘</span></a><div class="hero-stats"><div><b id="game-count">00</b><span>GAMES AVAILABLE</span></div><div><b>∞</b><span>NEW CHALLENGES</span></div><div><b>100%</b><span>FREE TO START</span></div></div></div>
+<div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="arcade-card"><div class="arcade-top"><span>GAMEZONE.EXE</span><span>● ● ●</span></div><div class="pixel-face">◈</div><div class="arcade-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="arcade-bottom">INSERT IMAGINATION</div></div><span class="float-tag tag-a">LEVEL UP ↗</span><span class="float-tag tag-b">NO LIMITS</span></div></section>
+<section class="game-section" id="games"><div class="section-head"><div><p class="eyebrow">CHOOSE YOUR MODE</p><h2>Game library<span class="accent">.</span></h2></div><div class="library-count"><span id="count-label">0 GAMES</span> <span>•</span> READY TO GROW</div></div>
+<div class="toolbar"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search games..." autocomplete="off" aria-label="Search games"></label><div class="filters" id="filters"><button class="filter active" data-filter="All">All games</button><button class="filter" data-filter="Arcade">Arcade</button><button class="filter" data-filter="Racing">Racing</button><button class="filter" data-filter="Adventure">Adventure</button><button class="filter" data-filter="Puzzle">Puzzle</button></div></div>
+<div class="game-grid" id="game-grid" aria-live="polite"></div><div class="empty-state" id="empty"><div class="empty-icon">＋</div><h3 id="empty-title">Your arcade starts here.</h3><p id="empty-copy">The library is ready. We’ll add and test each game in its own folder, one at a time.</p></div>
+</section>
+<section class="bottom-banner"><div><p class="eyebrow">BUILT ONE GAME AT A TIME</p><h2>Every run starts somewhere.</h2></div><a class="primary-btn" href="#games">Explore library <span>↗</span></a></section>
+</main><footer><a class="brand small-brand" href="#"><span class="brand-mark">GZ</span><span>Game<span class="accent">Zone</span></span></a><span>Made for curious players. Play fair, play often.</span><span>© GameZone</span></footer>
+<script src="js/games.js"></script><script src="js/app.js"></script>
+</body></html>
